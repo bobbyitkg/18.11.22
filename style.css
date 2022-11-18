@@ -1,3 +1,26 @@
 * {
   box-sizing: border-box;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  background-color: rgb(201, 34, 5);
+}
+nav {
+  background-color: rgb(250, 169, 154);
+  flex-basis: 25%;
+}
+main {
+  background-color: tomato;
+  flex-basis: 50%;
+}
+aside {
+  background-color: rgb(250, 169, 154);
+  flex-basis: 25%;
+}
+footer {
+  background-color: rgb(201, 34, 5);
+}
